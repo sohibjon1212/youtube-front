@@ -22,3 +22,18 @@ menuIcons[1].addEventListener("click", () => {
         isOpened = false;
     }
 })
+
+let liArray = document.querySelectorAll("li")
+liArray.forEach(li => {
+    li.onclick = function() {
+
+        liArray.forEach(li => {
+            li.classList.remove("active")
+
+
+        })
+        li.classList.add("active")
+
+    }
+
+});

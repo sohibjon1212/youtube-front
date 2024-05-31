@@ -91,7 +91,10 @@ ul li {
     height: 40px;
     padding: 0 12px;
 
-    transition: ;
+    transition: all 0.2s ease-in-out ;
+}
+ul li:hover {
+    background-color: #F2F2F2;
 }
 
 
